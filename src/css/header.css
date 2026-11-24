@@ -1,0 +1,36 @@
+header {
+  background-color: #888;
+  
+}
+
+.logo {
+  margin: 0;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  background-color: #555;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
